@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import Layout from '../components/Layout';
 import Prose from '../components/Prose';
-import Minting from '../components/Minting';
+//import Minting from '../components/Minting';
 import Faq from '../components/Faq';
 import Roadmap from '../components/Roadmap';
 import Team from '../components/Team';
@@ -24,8 +24,8 @@ const Home: NextPage = () => {
           <h1 className="text-5xl font-bold mb-2">
             {process.env.NEXT_PUBLIC_NFT_NAME}
           </h1>
-<p className="mb-4">An NFT project from Indonesia, a collection of 888 MONKS on the <a href="https://polygon.technology/" rel="noopener noreferrer" target="_blank" className="font-bold">Polygon</a> blockchain. GMONKS complies with the <a href="https://ethereum.org/ja/developers/docs/standards/tokens/erc-721/" rel="noopener noreferrer" target="_blank" className="font-bold">ERC721 standard</a>, so they are all as unique as we are.</p>
-<p>You can buy MONKS with <a href="https://opensea.io/collection/gmonks"><span className="text-pink-500 font-normal underline">OpenSea</span> </a></p>
+<p className="mb-4">GMONKS An NFT project from Indonesia, a collection of 333 MONKS on the <a href="https://www.bnbchain.world/en" rel="noopener noreferrer" target="_blank" className="font-bold">Binance Smart Chain</a>. GMONKS complies with the <a href="https://academy.binance.com/en/glossary/bep-721" rel="noopener noreferrer" target="_blank" className="font-bold">BEP721 standard</a>, so they are all as unique as we are.</p>
+<p>You can buy MONKS with <a href="https://tofunft.com/user/0xBE364cc7182d90C1C0C16c8c34212C474be8B736/"><span className="text-pink-500 font-normal underline">tofuNFT</span> </a></p>
         </Prose>
             
       </div>

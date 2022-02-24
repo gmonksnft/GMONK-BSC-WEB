@@ -61,10 +61,10 @@ export default function Footer() {
             </a>
             <a
               href={process.env.NEXT_PUBLIC_OPENSEA_URL}
-              aria-label={`${process.env.NEXT_PUBLIC_NFT_NAME} on OpenSea`}
+              aria-label={`${process.env.NEXT_PUBLIC_NFT_NAME} on TOFUNFT`}
               rel="noopener noreferrer"
               target="_blank"
-              data-tip="OpenSea"
+              data-tip="TOFUNFT"
               data-for="footer"
               className="bg-gray-700 hover:bg-gray-600 rounded-full p-2"
             >
